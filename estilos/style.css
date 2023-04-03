@@ -1,12 +1,19 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'quenda';
+    src: url(../fontes/Quenda-Medium.otf) format('truetype');
+    font-family: 'lato';
+    src: url(../fontes/Lato-Regular.ttf) format('truetype');
+}
 
 /* MOBILE FIRST */
 
 :root {
     --cor-cabecalho: #000000af;
     --cor-fundo:#808080;
-    --fonte-cabecalho: arial, sans-serif;
-    --fonte-corpo: arial, sans-serif;
+    --cor-fonte: #fff9e5;
+    --fonte-destaque: 'quenda', arial, sans-serif;
+    --fonte-texto: 'lato',arial, sans-serif;
 }
 
 * {
@@ -19,9 +26,8 @@ main {
 }
 
 header{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    place-items: center;
     height: 100px;
     background-color: var(--cor-cabecalho);
     font-family: var(--fonte-cabecalho);
