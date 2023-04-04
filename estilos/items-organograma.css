@@ -25,6 +25,10 @@ html {
     background: linear-gradient(170deg, var(--cor-logo-primaria) 30%, var(--cor-logo-secundaria));
 }
 
+main {
+    height: 98vh;
+}
+
 header {
     display: grid;
     place-items: center;
@@ -33,6 +37,7 @@ header {
     font-size: 2.3em;
     letter-spacing: 0.4em;
     color: var(--cor-logo-terciaria);
+    padding-bottom: 25px;
 }
 
 header > h1 {
@@ -42,35 +47,45 @@ header > h1 {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.items {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    background-color: var(--cor-logo-terciaria);
+    width: 350px;
+    height: 300px;
+    padding: 25px;
     border: 2px solid var(--cor-logo-secundaria);
     border-radius: 15px;
-    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.348);
-    height: 100px;
+    text-align: justify;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 400px;
+    height: 10px;
+    padding: 15px;
+}
+
+#anterior {
+    height: 10px;
     width: 250px;
-    margin: 25px;
-    font-family: var(--fonte-texto);
     background-color: var(--cor-logo-terciaria);
-    color: #000000;
-    font-size: 1.3em;
+    border: 2px solid var(--cor-logo-secundaria);
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 185px;
 }
 
-.menor > p {
-    letter-spacing: 0.2em;
-}
-
-.items:hover {
-    -xpedu-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    cursor: pointer;
+#proximo {
+    justify-self: flex-end;
+    height: 10px;
+    width: 250px;
+    background-color: var(--cor-logo-terciaria);
+    border: 2px solid var(--cor-logo-secundaria);
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
 }
