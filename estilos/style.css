@@ -22,7 +22,7 @@
 }
 
 html {
-    background-image: linear-gradient(150deg, var(--cor-logo-primaria), transparent);
+    background-image: linear-gradient(160deg, rgba(150, 46, 56, 0.875), rgba(150, 46, 56, 0.597), transparent);
 }
 
 header {
@@ -30,7 +30,9 @@ header {
     place-items: center;
     height: 100px;
     font-family: var(--fonte-texto);
-    font-size: 2.5em;
+    font-size: 2.3em;
+    letter-spacing: 0.4em;
+    color: var(--cor-logo-terciaria);
 }
 
 .container {
@@ -48,9 +50,14 @@ header {
     border-radius: 15px;
     box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.348);
     height: 100px;
-    width: 200px;
+    width: 250px;
     margin: 25px;
     font-family: var(--fonte-texto);
     background-color: var(--cor-logo-terciaria);
     color: #000000;
+    font-size: 1.3em;
+}
+
+.menor > p {
+    letter-spacing: 0.2em;
 }
