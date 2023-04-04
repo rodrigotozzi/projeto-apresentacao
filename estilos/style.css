@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'quenda';
-    src: url(../fontes/Quenda-Medium.otf) format('truetype');
+    src: url(../fontes/Quenda-Medium.otf) format('opentype'); /* CORRIGIR FORMAT */
     font-family: 'lato';
     src: url(../fontes/Lato-Regular.ttf) format('truetype');
 }
@@ -9,11 +9,11 @@
 /* MOBILE FIRST */
 
 :root {
-    --cor-cabecalho: #000000af;
-    --cor-fundo:#808080;
-    --cor-fonte: #fff9e5;
-    --fonte-destaque: 'quenda', arial, sans-serif;
-    --fonte-texto: 'lato',arial, sans-serif;
+    --cor-logo-primaria:rgb(150, 46, 57);
+    --cor-logo-secundaria: rgb(255, 222, 89);
+    --cor-logo-terciaria: rgb(255, 249, 229);
+    --fonte-destaque: 'quenda';
+    --fonte-texto: 'lato', 'arial', sans-serif;
 }
 
 * {
@@ -21,16 +21,16 @@
     margin: 0;
 }
 
-main { 
-    background-color: var(--cor-fundo);
+html {
+    background-image: linear-gradient(150deg, var(--cor-logo-primaria), transparent);
 }
 
-header{
+header {
     display: grid;
     place-items: center;
     height: 100px;
-    background-color: var(--cor-cabecalho);
-    font-family: var(--fonte-cabecalho);
+    font-family: var(--fonte-texto);
+    font-size: 2.5em;
 }
 
 .container {
@@ -44,12 +44,13 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 2px solid var(--cor-logo-secundaria);
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.348);
     height: 100px;
     width: 200px;
     margin: 25px;
-}
-
-.items > p {
-
+    font-family: var(--fonte-texto);
+    background-color: var(--cor-logo-terciaria);
+    color: #000000;
 }
