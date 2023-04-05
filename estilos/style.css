@@ -2,6 +2,9 @@
 @font-face {
     font-family: 'quenda';
     src: url(../fontes/Quenda-Medium.otf) format('opentype'); /* CORRIGIR FORMAT */
+}
+
+@font-face {
     font-family: 'lato';
     src: url(../fontes/Lato-Regular.ttf) format('truetype');
 }
