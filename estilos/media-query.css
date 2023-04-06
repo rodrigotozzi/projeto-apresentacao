@@ -27,7 +27,6 @@
 
     html {
         width: 99vw;
-        height: 100vh;
     }
 
     body {
@@ -38,26 +37,36 @@
         background-position-y: 0px;
     }
 
+    header {
+        font-size: 3.0em;
+    }
+
     .container {
         display: grid;
         grid-template-areas: 
           'legal viabilidade custos'
-          'mvv constituicao investimento';
-        width: 99vw;
+          'mvv constituicao investimento'
+          'informacoes informacoes informacoes'
+          'informacoes informacoes informacoes'
+          'informacoes informacoes informacoes';
         height: 100vh;
+        width: 99vw;
         place-items: center;
     }
 
     #legal {
         grid-area: legal;
+        font-size: 1.5em;
     }
 
     #viabilidade {
         grid-area: viabilidade;
+        font-size: 1.5em;
     }
 
     #custos {
         grid-area: custos;
+        font-size: 1.5em;
     }
 
     #mvv {
@@ -74,6 +83,18 @@
 
     #informacoes {
         display: none;
+        place-items: center;
+        grid-area: informacoes;
+        font-family: var(--fonte-texto);
+        text-align: justify;
+        color: #000000;
+        background-color: var(--cor-logo-terciaria);
+        padding: 25px;
+        border: 2px solid var(--cor-logo-secundaria);
+        border-radius: 15px;
+        box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.348);
+        width: 82vw;
+        height: 400px;
     }
 
 }
