@@ -20,17 +20,60 @@
         --fonte-texto: 'lato', 'arial', sans-serif;
     }
 
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     html {
-        width: 100vw;
+        width: 99vw;
         height: 100vh;
     }
 
     body {
-        background: linear-gradient(rgba(17, 17, 17, 0.709), rgba(20, 20, 20, 0.728)), url(../imagens/padaria.jpg);
+        background: linear-gradient(rgba(17, 17, 17, 0.676), rgba(20, 20, 20, 0.471)), url(../imagens/padaria2.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
         background-position-y: 0px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-areas: 
+          'legal viabilidade custos'
+          'mvv constituicao investimento';
+        width: 99vw;
+        height: 100vh;
+        place-items: center;
+    }
+
+    #legal {
+        grid-area: legal;
+    }
+
+    #viabilidade {
+        grid-area: viabilidade;
+    }
+
+    #custos {
+        grid-area: custos;
+    }
+
+    #mvv {
+        grid-area: mvv;
+    }
+
+    #constituicao {
+        grid-area: constituicao;
+    }
+
+    #investimento {
+        grid-area: investimento;
+    }
+
+    #informacoes {
+        display: none;
     }
 
 }
