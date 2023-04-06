@@ -32,7 +32,7 @@ header {
     display: grid;
     place-items: center;
     height: 100px;
-    font-family: var(--fonte-texto);
+    font-family: var(--fonte-destaque);
     font-size: 2.3em;
     letter-spacing: 0.4em;
     color: var(--cor-logo-terciaria);
@@ -61,7 +61,7 @@ header > h1 {
     height: 100px;
     width: 250px;
     margin: 25px;
-    font-family: var(--fonte-texto);
+    font-family: var(--fonte-destaque);
     background-color: var(--cor-logo-terciaria);
     color: #000000;
     font-size: 1.3em;

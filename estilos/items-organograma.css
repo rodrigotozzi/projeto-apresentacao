@@ -30,14 +30,14 @@ html {
 }
 
 main {
-    height: 650px;
+    height: 700px;
 }
 
 header {
     display: grid;
     place-items: center;
     height: 100px;
-    font-family: var(--fonte-texto);
+    font-family: var(--fonte-destaque);
     font-size: 2.3em;
     color: var(--cor-logo-terciaria);
     padding-bottom: 25px;
@@ -54,8 +54,8 @@ header > h1 {
     place-items: center;
     margin: auto;
     background-color: var(--cor-logo-terciaria);
-    width: 300px;
-    height: 450px;
+    width: 250px;
+    height: 500px;
     padding: 25px;
     border: 2px solid var(--cor-logo-secundaria);
     border-radius: 15px;
@@ -67,7 +67,7 @@ header > h1 {
     display: flex;
     flex-direction: row;
     margin: auto;
-    width: 350px;
+    width: 300px;
     height: 100px;
     padding-top: 15px;
     justify-content: space-between;
@@ -77,7 +77,7 @@ header > h1 {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 165px;
+    width: 140px;
     height: 50px;
     background-color: var(--cor-logo-terciaria);
     border: 2px solid var(--cor-logo-secundaria);
