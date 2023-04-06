@@ -36,7 +36,7 @@ header {
     font-size: 2.3em;
     letter-spacing: 0.4em;
     color: var(--cor-logo-terciaria);
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 header > h1 {

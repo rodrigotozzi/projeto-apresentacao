@@ -40,7 +40,7 @@ header {
     font-family: var(--fonte-destaque);
     font-size: 2.3em;
     color: var(--cor-logo-terciaria);
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 25px;
 }
 
