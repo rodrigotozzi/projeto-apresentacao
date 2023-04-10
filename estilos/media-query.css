@@ -26,15 +26,12 @@
     }
 
     html {
-        width: 99vw;
-    }
-
-    body {
         background: linear-gradient(rgba(17, 17, 17, 0.676), rgba(20, 20, 20, 0.471)), url(../imagens/padaria2.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position-y: 0px;
+        width: 100vw;
+        height: 100vh;
     }
 
     header {
@@ -43,15 +40,10 @@
 
     .container {
         display: grid;
-        grid-template-areas: 
-          'legal viabilidade custos'
-          'mvv constituicao investimento'
-          'informacoes informacoes informacoes'
-          'informacoes informacoes informacoes'
-          'informacoes informacoes informacoes';
-        height: 100vh;
-        width: 99vw;
         place-items: center;
+        grid-template-areas:
+          'legal viabilidade custos'
+          'mvv constituicao investimento';
     }
 
     #legal {
