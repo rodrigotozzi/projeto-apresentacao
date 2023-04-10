@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) {
+    @font-face {
+        font-family: 'quenda';
+        src: url(../fontes/Quenda-Medium.otf) format('opentype'); /* CORRIGIR FORMAT */
+    }
+    
+    @font-face {
+        font-family: 'lato';
+        src: url(../fontes/Lato-Regular.ttf) format('truetype');
+    }
+    
+    :root {
+        --cor-logo-primaria:rgb(150, 46, 57);
+        --cor-logo-secundaria: rgb(255, 222, 89);
+        --cor-logo-terciaria: rgb(255, 249, 229);
+        --fonte-destaque: 'quenda';
+        --fonte-texto: 'lato', 'arial', sans-serif;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        width: 99vw;
+        background: linear-gradient(rgba(17, 17, 17, 0.676), rgba(20, 20, 20, 0.471)), url(../imagens/padaria2.jpg);
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    header {
+        font-size: 3.0em;
+    }
+
+    .container {
+        display: grid;
+        place-items: center;
+        margin: auto;
+        background-color: var(--cor-logo-terciaria);
+        width: 850px;
+        height: 500px;
+        padding: 2em;
+        border: 2px solid var(--cor-logo-secundaria);
+        border-radius: 15px;
+        text-align: justify;
+        font-family: var(--fonte-texto);
+    }
+}
