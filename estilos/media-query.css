@@ -73,20 +73,4 @@
         grid-area: investimento;
     }
 
-    #informacoes {
-        display: none;
-        place-items: center;
-        grid-area: informacoes;
-        font-family: var(--fonte-texto);
-        text-align: justify;
-        color: #000000;
-        background-color: var(--cor-logo-terciaria);
-        padding: 25px;
-        border: 2px solid var(--cor-logo-secundaria);
-        border-radius: 15px;
-        box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.348);
-        width: 82vw;
-        height: 400px;
-    }
-
 }
