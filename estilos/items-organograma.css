@@ -29,10 +29,6 @@ html {
     background: linear-gradient(170deg, var(--cor-logo-primaria) 30%, var(--cor-logo-secundaria));
 }
 
-main {
-    height: 700px;
-}
-
 header {
     display: grid;
     place-items: center;
@@ -98,4 +94,8 @@ header > h1 {
 
 #proximo {
     letter-spacing: 0.1em;
+}
+
+.container-botoes {
+    display: none;
 }
