@@ -48,19 +48,11 @@
         text-align: justify;
         font-family: var(--fonte-texto);
     }
-    
-    .botoes {
-        display: none;
-    }
 
     .container-botoes {
         display: grid;
-        place-items: center;
         grid-template-areas:
-          'legal viabilidade custos'
-          'mvv constituicao investimento';
-        padding-top: 5em;
-        row-gap: 5em;
+          'legal viabilidade custos mvv constituicao investimento';
         width: 850px;
         margin: auto; 
         justify-content: space-around;
@@ -72,15 +64,17 @@
         justify-content: center;
         align-items: center;
         border: 2px solid var(--cor-logo-secundaria);
-        border-radius: 15px;
+        border-radius: 5px;
         box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.348);
-        height: 100px;
-        width: 250px;
-        margin: 25px;
+        height: 30px;
+        width: 150px;
+        margin: 15px;
         font-family: var(--fonte-destaque);
         background-color: var(--cor-logo-terciaria);
         color: #000000;
-        font-size: 1.3em;
+        font-size: 1em;
+
+        opacity: 0.8;
     }
 
     .items:hover {
@@ -93,11 +87,13 @@
         background-color: var(--cor-logo-primaria);
         color: var(--cor-logo-terciaria);
         text-decoration: underline var(--cor-logo-secundaria);
+
+        opacity: 1;
     }
 
     #legal {
         grid-area: legal;
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
 
     #viabilidade {
@@ -112,14 +108,21 @@
 
     #mvv {
         grid-area: mvv;
+        font-size: 0.8em;
     }
 
     #constituicao {
         grid-area: constituicao;
+        font-size: 0.8em;
     }
 
     #investimento {
         grid-area: investimento;
+        font-size: 1.2em;
+    }
+
+    .botoes {
+        display: none;
     }
 
 }
