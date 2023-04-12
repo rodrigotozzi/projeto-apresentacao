@@ -28,7 +28,7 @@
     html {
         width: 100vw;
         height: 100vh;
-        background: linear-gradient(rgba(17, 17, 17, 0.676), rgba(20, 20, 20, 0.471)), url(../imagens/padaria2.jpg);
+        background: linear-gradient(rgba(17, 17, 17, 0.676), rgba(20, 20, 20, 0.471)), url(../imagens/padaria.jpg);
         background-position: center top;
         background-size: cover;
         background-repeat: no-repeat;

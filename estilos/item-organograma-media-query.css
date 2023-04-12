@@ -25,7 +25,8 @@
     }
 
     html {
-        width: 99vw;
+        width: 100vw;
+        height: 100vh;
         background: linear-gradient(rgba(17, 17, 17, 0.676), rgba(20, 20, 20, 0.471)), url(../imagens/padaria2.jpg);
         background-position: center top;
         background-size: cover;
@@ -42,7 +43,7 @@
         margin: auto;
         background-color: var(--cor-logo-terciaria);
         width: 850px;
-        height: 500px;
+        height: 300px;
         border: 2px solid var(--cor-logo-secundaria);
         border-radius: 15px;
         text-align: justify;
