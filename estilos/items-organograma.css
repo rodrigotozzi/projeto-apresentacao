@@ -40,6 +40,25 @@ header {
     padding-bottom: 25px;
 }
 
+#constituicao-header {
+    font-size: 1.0em;
+}
+
+#investimento-header {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+#viabilidade-header {
+    font-size: 1.6em;
+    letter-spacing: 0.1em;
+}
+
+#mvv-header {
+    font-size: 1.0em;
+    letter-spacing: 0.05em;
+}
+
 header > h1 {
     text-decoration: underline 1px var(--cor-logo-secundaria);
     text-underline-offset: 10px;
